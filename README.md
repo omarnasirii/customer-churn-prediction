@@ -1,29 +1,33 @@
 # Customer Churn Prediction & Dashboard
-https://img.shields.io/badge/Python-3.7%252B-blue
-https://img.shields.io/badge/Machine-Learning-orange
-https://img.shields.io/badge/Dashboard-Streamlit-red
+
+![Python](https://img.shields.io/badge/Python-3.7%2B-blue) 
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-orange) 
+![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit-red)
 
 A machine learning project that predicts customer churn for telecommunications companies and provides an interactive dashboard for business insights.
 
-# 📋 Table of Contents
-Project Overview
+---
 
-Project Structure
+## 📋 Table of Contents
+- [Project Overview](#project-overview)
+- [Project Structure](#-project-structure)
+- [Quick Start](#-quick-start)
+- [Usage](#-usage)
+- [Dataset](#-dataset)
+- [Technical Details](#-technical-details)
+- [Business Applications](#-business-applications)
+- [Customization](#-customization)
+- [Contributing](#-contributing)
+- [Support](#-support)
 
-Quick Start
+---
 
-Installation
+## Project Overview
+This project leverages a Logistic Regression model to predict customer churn and provides a Streamlit dashboard to visualize churn risk and explore scenarios interactively.
 
-Usage
+---
 
-Dataset
-
-Technical Details
-
-Business Applications
-
-# 🏗️ Project Structure
-
+## 🏗️ Project Structure
 Customer-Churn-Prediction/
 ├── app/
 │   ├── streamlit_app.py                 # Interactive dashboard
@@ -43,33 +47,39 @@ Customer-Churn-Prediction/
 └── README.md
 
 ## 🚀 Quick Start
-Prerequisites
-- Python 3.7+ (64-bit version required)
+
+### Prerequisites
+- Python 3.7+ (64-bit)
 - Git
 
 ### Installation
-
-# Create virtual environment
+1. **Create virtual environment**
+   
 python -m venv venv
 
-# Activate (Windows PowerShell)
+3. Activate (Windows PowerShell)
+   
 venv\Scripts\Activate.ps1
 
-# Install dependencies
+3. Install dependencies
+   
 pip install --upgrade pip
 pip install pandas scikit-learn matplotlib seaborn shap streamlit
 
-## Prepare data and train model:
+4. Prepare data and train model
+   
 cd notebooks
 python 01_data_exploration.py
 python 02_modeling.py
 
-Run dashboard:
+5. Run dashboard
+   
 cd ../app
 streamlit run streamlit_app.py
+
 The dashboard will open at http://localhost:8501
 
-# 📊 Usage
+## 📊 Usage
 The dashboard allows you to:
 
 Input customer parameters (tenure, charges, contract type)
@@ -80,7 +90,7 @@ Test different scenarios
 
 View risk assessment (✅ Low risk / ⚠️ High risk)
 
-🔍 Dataset
+## 🔍 Dataset
 Telco Customer Churn Dataset (Kaggle)
 
 7,043 customer records
@@ -99,7 +109,7 @@ Account details
 
 Billing information
 
-⚙️ Technical Details
+## ⚙️ Technical Details
 Machine Learning Model:
 
 Algorithm: Logistic Regression
@@ -120,7 +130,7 @@ SHAP feature importance
 
 Interactive Streamlit interface
 
-💡 Business Applications
+## 💡 Business Applications
 Customer Retention: Identify at-risk customers
 
 Service Optimization: Understand churn drivers
@@ -129,7 +139,7 @@ Resource Allocation: Focus retention efforts
 
 Strategic Planning: Inform product decisions
 
-🛠️ Customization
+## 🛠️ Customization
 To adapt for your data:
 
 Replace dataset in app/data/
@@ -140,7 +150,7 @@ Adjust features in Streamlit app
 
 Retrain model with your data
 
-🤝 Contributing
+## 🤝 Contributing
 Fork the project
 
 Create feature branch
@@ -149,7 +159,7 @@ Make changes
 
 Submit pull request
 
-📞 Support
+## 📞 Support
 Common issues:
 
 Ensure 64-bit Python is used
