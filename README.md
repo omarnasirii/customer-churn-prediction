@@ -57,7 +57,7 @@ Customer-Churn-Prediction/
    
 python -m venv venv
 
-3. **Activate (Windows PowerShell)**
+2. **Activate (Windows PowerShell)**
    
 venv\Scripts\Activate.ps1
 
