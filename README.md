@@ -57,22 +57,22 @@ Customer-Churn-Prediction/
    
 python -m venv venv
 
-3. Activate (Windows PowerShell)
+3. **Activate (Windows PowerShell)**
    
 venv\Scripts\Activate.ps1
 
-3. Install dependencies
+3. **Install dependencies**
    
 pip install --upgrade pip
 pip install pandas scikit-learn matplotlib seaborn shap streamlit
 
-4. Prepare data and train model
+4. **Prepare data and train model**
    
 cd notebooks
 python 01_data_exploration.py
 python 02_modeling.py
 
-5. Run dashboard
+5. **Run dashboard**
    
 cd ../app
 streamlit run streamlit_app.py
