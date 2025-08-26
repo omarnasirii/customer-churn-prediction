@@ -28,23 +28,9 @@ This project leverages a Logistic Regression model to predict customer churn and
 ---
 
 ## 🏗️ Project Structure
-Customer-Churn-Prediction/
-├── app/
-│   ├── streamlit_app.py                 # Interactive dashboard
-│   └── data/
-│       ├── preprocessed_telco.csv       # Cleaned data
-│       └── WA_Fn-UseC_-Telco-Customer-Churn.csv  # Original dataset
-├── models/
-│   ├── feature_names.pkl                # Feature names
-│   ├── logreg_model.pkl                 # Trained model
-│   └── scaler.pkl                       # Feature scaler
-├── notebooks/
-│   ├── 01_data_exploration.py           # Data preprocessing
-│   ├── 02_modeling.py                   # Model training
-│   └── 03_feature_importance.py         # Feature analysis
-├── venv/                                # Virtual environment
-├── .gitignore
-└── README.md
+
+<img width="303" height="490" alt="Screenshot 2025-08-26 143047" src="https://github.com/user-attachments/assets/a23907f2-ea1d-495f-b780-be6b1a8ab686" />
+
 
 ## 🚀 Quick Start
 
