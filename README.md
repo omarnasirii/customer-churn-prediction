@@ -82,91 +82,82 @@ The dashboard will open at http://localhost:8501
 ## 📊 Usage
 The dashboard allows you to:
 
-Input customer parameters (tenure, charges, contract type)
+- Input customer parameters (tenure, charges, contract type)
 
-Get instant churn predictions
+- Get instant churn predictions
 
-Test different scenarios
+- Test different scenarios
 
-View risk assessment (✅ Low risk / ⚠️ High risk)
+- View risk assessment (✅ Low risk / ⚠️ High risk)
 
 ## 🔍 Dataset
 Telco Customer Churn Dataset (Kaggle)
 
-7,043 customer records
+- 7,043 customer records
 
-21 features including demographics, services, and account information
+- 21 features including demographics, services, and account information
 
-Target variable: Churn (Yes/No)
+- Target variable: Churn (Yes/No)
 
 Key features:
 
-Demographic information
+- Demographic information
 
-Service subscriptions
+- Service subscriptions
 
-Account details
+- Account details
 
-Billing information
+- Billing information
 
 ## ⚙️ Technical Details
 Machine Learning Model:
 
-Algorithm: Logistic Regression
+- Algorithm: Logistic Regression
 
-Accuracy: 80-82%
+- Accuracy: 80-82%
 
-Preprocessing: One-hot encoding, feature scaling
+- Preprocessing: One-hot encoding, feature scaling
 
-Validation: Stratified train-test split
+- Validation: Stratified train-test split
 
-Key Features:
+## Key Features:
 
-Automated data pipeline
+- Automated data pipeline
 
-Model persistence with pickle
+- Model persistence with pickle
 
-SHAP feature importance
+- SHAP feature importance
 
-Interactive Streamlit interface
+- Interactive Streamlit interface
 
 ## 💡 Business Applications
-Customer Retention: Identify at-risk customers
+- Customer Retention: Identify at-risk customers
 
-Service Optimization: Understand churn drivers
+- Service Optimization: Understand churn drivers
 
-Resource Allocation: Focus retention efforts
+- Resource Allocation: Focus retention efforts
 
-Strategic Planning: Inform product decisions
+- Strategic Planning: Inform product decisions
 
 ## 🛠️ Customization
 To adapt for your data:
 
-Replace dataset in app/data/
+- Replace dataset in app/data/
 
-Modify preprocessing in 01_data_exploration.py
+- Modify preprocessing in 01_data_exploration.py
 
-Adjust features in Streamlit app
+- Adjust features in Streamlit app
 
-Retrain model with your data
-
-## 🤝 Contributing
-Fork the project
-
-Create feature branch
-
-Make changes
-
-Submit pull request
+- Retrain model with your data
 
 ## 📞 Support
 Common issues:
 
-Ensure 64-bit Python is used
+- Ensure 64-bit Python is used
 
-Verify all dependencies are installed
+- Verify all dependencies are installed
 
-Confirm virtual environment is activated
+- Confirm virtual environment is activated
 
-Check model files are generated before running dashboard
+- Check model files are generated before running dashboard
 
